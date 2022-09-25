@@ -83,13 +83,13 @@ jobs:
             ${{ runner.os }}-nodeBackend-
 
       - name: ----------=====Install Dependencies=====-------------
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: |
           cd backend
           npm install
   
       - name: ----------=====Building Application=====-------------
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: |
           cd backend
           npm install 
