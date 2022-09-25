@@ -14,7 +14,7 @@
 ## Current Implementation
 #
 ### In this project, I will be reimplementing this solution using the following tools:
-  - [Jenkins](https://www.jenkins.io/) - CI/CD service
+  - [Github-Actions](https://github.com/features/actions) - CI/CD service
   - [Amazon AWS](https://aws.amazon.com/) - Cloud services
   - [AWS CLI](https://aws.amazon.com/cli/) - Command-line tool for AWS
   - [Terraform](https://www.terraform.io/) - Infrastrcuture as code
